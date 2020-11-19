@@ -1,0 +1,52 @@
+
+body{
+  
+  background-color:black;
+}
+
+h1{
+  font-family:arial;
+  text-align:center;
+  
+  display: flex;
+  align-items: center;
+  font-size:50px;
+  justify-content: center;
+  margin-bottom: 1em;
+  background: #000;
+  color: #fff;
+  min-height: 10vh;
+
+
+}
+
+h2{
+  font-size:15px;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+text-align:center;
+border:solid black;
+
+  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  background-color: black;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 60em;
+  border:solid white;
+ 
+}
+.grid-item {
+  background-color:white;
+  border: 1px groove white;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+   height: 10vw;
+  max-height: 125px;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  
+}
